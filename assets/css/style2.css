@@ -1,22 +1,33 @@
+
 /** Portfolio style sheet
 */
 
-#hangman{
+div{
+    align-content: center;
+    clear: left;
+}
 
+#hangman{
+    height: 250px;
+    width: 250px;
 }
 
 #rpggame{
-
+    height: 250px;
+    width: 250px;
  }
 
  #trivia{
-
+    height: 250px;
+    width: 250px;
  }
 
  #rutgersinfowidget{
-
+    height: 250px;
+    width: 250px;
  }
 
  #rockpaperscissors{
-     
+    height: 250px;
+    width: 250px;
  }
