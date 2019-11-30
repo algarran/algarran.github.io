@@ -1,0 +1,26 @@
+/** About Me/index style sheet
+*/
+
+html {
+    max-width: 960px;
+}
+
+h1{
+    background-color: #4aaaa5;
+}
+
+a{
+    float: right;
+    padding: 5px;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #777777;
+}
+
