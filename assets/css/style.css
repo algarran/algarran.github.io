@@ -7,6 +7,51 @@ header{
     height: 70px;
 }
 
+#picture{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+#picturewrap{
+    float: left;
+    margin: 5px;
+    color: #777777;
+    font-size: medium;
+}
+
+.some-page-wrapper {
+    display: flex;
+    margin: 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .orange-column {
+    height: 100px;
+  }
+  
+  .blue-column {
+
+    height: 100px;
+  }
+  
+  .green-column {
+    height: 100px;
+  }
+
 ul{
     text-align: right;
     margin: 0px 288px 10px 0px;
@@ -19,6 +64,10 @@ li{
     display: inline;
     clear: left;
     text-align: right;
+}
+
+#name{
+padding: 20px;
 }
 
 h1{
@@ -35,11 +84,12 @@ h1{
 }
 
 hr{
+    width: 100%;
     color: gray;
 }
 body{
     text-align:  center;
-    background-image: url('/algarran.github.io/assets/images/so-white.png');
+    background-image: url('../images/criss-cross/criss-cross.png');
     margin: 0;
     padding: 0;
 }
